@@ -1,6 +1,6 @@
 {
   "name": "generator-saya",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Scaffold out a node module",
   "license": "MIT",
   "author": "Simon Degrave <simon.degraeve@gmail.com>",
@@ -31,7 +31,9 @@
     "yeoman-test": "^1.5.1"
   },
   "babel": {
-    "presets": ["saya"]
+    "presets": [
+      "saya"
+    ]
   },
   "eslintConfig": {
     "extends": "saya"
