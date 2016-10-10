@@ -1,3 +1,9 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/simondegraeve/generator-saya/compare/v1.0.1...v1.0.2)
+> 2016-10-10
+
+* [c7846ce](https://github.com/simondegraeve/generator-saya/commit/c7846ce) **Dependency:** Update kode
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/simondegraeve/generator-saya/compare/v1.0.0...v1.0.1)
 > 2016-10-10
