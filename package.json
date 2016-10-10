@@ -1,0 +1,42 @@
+{
+  "name": "generator-saya",
+  "version": "0.0.0",
+  "description": "Scaffold out a node module",
+  "license": "MIT",
+  "author": "Simon Degrave <simon.degraeve@gmail.com>",
+  "repository": "github:SimonDegraeve/generator-saya",
+  "homepage": "https://github.com/SimonDegraeve/generator-saya#readme",
+  "bugs": "https://github.com/SimonDegraeve/generator-saya/issues",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "saya"
+  ],
+  "scripts": {
+    "lint": "kode lint --ignore-pattern 'src/templates/*'",
+    "build": "cross-env BUILD_DEST=app kode build",
+    "release": "kode release --skip-test=true"
+  },
+  "dependencies": {
+    "superb": "^1.3.0",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^0.24.1"
+  },
+  "devDependencies": {
+    "cross-env": "^3.1.2",
+    "kode": "^2.3.0",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.5.1"
+  },
+  "babel": {
+    "presets": ["saya"]
+  },
+  "eslintConfig": {
+    "extends": "saya"
+  },
+  "jest": {
+    "preset": "saya"
+  }
+}

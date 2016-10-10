@@ -1,0 +1,14 @@
+/**
+ *
+ */
+import <%= camelModuleName %> from './';
+
+
+/**
+ *
+ */
+describe('test', () => {
+	it('does something' => {
+		expect(<%= camelModuleName %>()).toBe('Hello World');
+	});
+});

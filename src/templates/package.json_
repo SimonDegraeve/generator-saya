@@ -1,0 +1,40 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "<%= moduleDescription %>",
+  "license": "MIT",
+  "author": "<%= name %> <<%= email %>>",
+  "repository": "github:<%= githubUsername %>/<%= repoName %>",
+  "homepage": "https://github.com/<%= githubUsername %>/<%= repoName %>#readme",
+  "bugs": "https://github.com/<%= githubUsername %>/<%= repoName %>/issues",
+  "main": "lib/index.js",<% if (cli) { %>
+  "bin": "lib/cli.js",<% } %>
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+
+  ],
+  "scripts": {
+    "lint": "kode lint",
+    "test": "kode test",
+    "build": "kode build",
+    "report-coverage": "kode report-coverage",
+    "release": "kode release"
+  },
+  "dependencies": {
+    <% if (cli) { %>"meow": "^3.7.0"<% } %>
+  },
+  "devDependencies": {
+    "kode": "^2.3.0"
+  },
+  "babel": {
+    "presets": ["saya"]
+  },
+  "eslintConfig": {
+    "extends": "saya"
+  },
+  "jest": {
+    "preset": "saya"
+  }
+}

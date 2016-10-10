@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+
+/**
+ *
+ */
+import createCli from 'meow';
+import <%= camelModuleName %> from './';
+
+
+/**
+ *
+ */
+const cli = createCli(`
+	Usage
+	  $ <%= repoName %> [input]
+
+	Options
+	  --foo  Lorem ipsum [Default: false]
+
+	Examples
+	  $ <%= repoName %> --foo
+`);
+
+
+/**
+ *
+ */
+console.log(<%= camelModuleName %>(cli.input[0]));
