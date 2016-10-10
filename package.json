@@ -39,6 +39,6 @@
     "extends": "saya"
   },
   "jest": {
-    "preset": "saya"
+    "preset": "jest-preset-saya"
   }
 }

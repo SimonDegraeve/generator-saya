@@ -29,12 +29,14 @@
     "kode": "^2.3.0"
   },
   "babel": {
-    "presets": ["saya"]
+    "presets": [
+      "saya"
+    ]
   },
   "eslintConfig": {
     "extends": "saya"
   },
   "jest": {
-    "preset": "saya"
+    "preset": "jest-preset-saya"
   }
 }
