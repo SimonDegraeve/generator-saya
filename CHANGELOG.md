@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/simondegraeve/generator-saya/compare/v1.0.2...v1.0.3)
+> 2016-10-11
+
+* [a6c72d5](https://github.com/simondegraeve/generator-saya/commit/a6c72d5) **Bugfix:** Fix error in test.js template
+* [bea8c00](https://github.com/simondegraeve/generator-saya/commit/bea8c00) **Dependency:** Update kode
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/simondegraeve/generator-saya/compare/v1.0.1...v1.0.2)
 > 2016-10-10
