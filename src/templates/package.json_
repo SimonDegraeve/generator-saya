@@ -26,7 +26,7 @@
     <% if (cli) { %>"meow": "^3.7.0"<% } %>
   },
   "devDependencies": {
-    "kode": "^2.4.1"
+    "kode": "^2.4.5"
   },
   "babel": {
     "presets": [
