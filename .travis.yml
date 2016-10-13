@@ -5,12 +5,15 @@ cache:
     - node_modules
 notifications:
   email: false
+branches:
+  only:
+    - master
 node_js:
   - 'node'
 before_script:
   - npm prune
 script:
   - npm run lint
-branches:
-  only:
-    - master
+  - npm run test
+after_success:
+  - npm run report-coverage
