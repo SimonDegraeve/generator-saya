@@ -1,12 +1,20 @@
 {
   "name": "generator-saya",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Scaffold out a node module",
   "license": "MIT",
-  "author": "Simon Degrave <simon.degraeve@gmail.com>",
-  "repository": "github:SimonDegraeve/generator-saya",
+  "author": {
+    "name": "Simon Degrave",
+    "email": "simon.degraeve@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simondegraeve/generator-saya.git"
+  },
   "homepage": "https://github.com/SimonDegraeve/generator-saya#readme",
-  "bugs": "https://github.com/SimonDegraeve/generator-saya/issues",
+  "bugs": {
+    "url": "https://github.com/SimonDegraeve/generator-saya/issues"
+  },
   "files": [
     "app"
   ],
@@ -41,5 +49,7 @@
   },
   "jest": {
     "preset": "jest-preset-saya"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "generator-saya@1.0.3"
 }
